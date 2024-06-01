@@ -1,0 +1,20 @@
+Undefined vs. Not Defined in JavaScript
+
+undefined: This is a value that JavaScript assigns to variables that have been declared but not initialized with a value. It is pre-allocated before code execution.
+
+not defined: This occurs when trying to access a variable that hasn't been declared in the code.
+
+
+Key Points:
+
+Pre-allocation: JavaScript allocates memory to all variables before executing the code.
+
+Difference:
+
+undefined: Memory allocated but no value assigned.
+
+not defined: No memory allocated at all.
+
+Loosely Typed Language: JavaScript variables can hold any data type (numbers, strings, undefined, etc.), offering flexibility.
+
+Best Practices: Avoid assigning undefined to variables manually; use it only for checking if a variable has been assigned a value. 
