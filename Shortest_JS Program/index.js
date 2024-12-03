@@ -1,0 +1,1 @@
+// shortes Js program is nothing but an empty file

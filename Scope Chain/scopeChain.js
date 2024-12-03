@@ -1,8 +1,10 @@
+// It will give o/p as 10 because of Lexical Environment = Local Memory + Lexical Environment of Parent
+
 function a(){
-  var b=10;
+  c();
   function c(){
     console.log(b);
   }
 }
-var b =10;
+var b = 10;
 a();
